@@ -1,4 +1,4 @@
-# https://marisakgr.github.io/Test2/
+# GitHub pages: https://marisakgr.github.io/Test2/
 
 # Draft Prediction Project
 ## Overview
