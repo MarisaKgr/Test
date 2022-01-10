@@ -4,17 +4,17 @@
 Develop a Machine Learning model to predict if a basketball player will go professional based on their player stats.
 ## Data Collection – Finding Big Data
 Web-scraping code was used to scrape data from the site Sports Reference https://www.sports-reference.com/.  The code was specified to pull data for eleven key player stat parameters: 
-### fgapg = Field goal attempts per game
-### fgpct = Field goal percent
-### fgpg = Field goals per game
-### ftapg = Free throw attempts per game
-### ftpct = Free throw percent
-### ftpg = Free throws per game
-### height = Player height
-### pfpg = Personal fouls per game
-### ptspg = Points per game
-### sospg = Strength of schedule
-### trbpg = Total rebounds per game
+###   fgapg = Field goal attempts per game
+###   fgpct = Field goal percent
+###   fgpg = Field goals per game
+###   ftapg = Free throw attempts per game
+###   ftpct = Free throw percent
+###   ftpg = Free throws per game
+###   height = Player height
+###   pfpg = Personal fouls per game
+###   ptspg = Points per game
+###   sospg = Strength of schedule
+###   trbpg = Total rebounds per game
 
 ## Data Preprocessing
 Data was prepared using postgres SQL and pandas.  An “is_pro” column was added to assign players with a known outcome of either 1 = played professionally or 0 = no professional statistics.  The height column was converted to centimeters and rows containing NAN values were dropped.  The dataframe was then randomly split into two dataframes “train” and “test”.
